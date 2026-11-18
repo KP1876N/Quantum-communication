@@ -1,14 +1,9 @@
-
 import numpy as np
 
-# Number of bits Alice wants to transmit
 n = 20
 
-# Generate random bits: 0 or 1
 alice_bits = np.random.randint(0, 2, n)
 
-# Generate random bases: 0 = Rectilinear (+)
-#                         1 = Diagonal (x)
 alice_bases = np.random.randint(0, 2, n)
 
 print("Alice's Bits:  ", alice_bits)
